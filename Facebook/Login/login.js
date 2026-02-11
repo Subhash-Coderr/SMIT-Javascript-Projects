@@ -75,13 +75,16 @@ function login() {
   };
   users.push(userObj);
   localStorage.setItem("users", JSON.stringify(users));
+  // sweety("success",
+  //   " Your Login",
+  //   "Congratulations! Login successfully!");
+
+  window.location.href = "/dashboard.html";
   sweety("success",
     " Your Login",
     "Congratulations! Login successfully!");
 
-    window.location.href = "/dashboard";
-
-    // firstPassword.value = "";
+  // firstPassword.value = "";
 };
 
 loginBtn.addEventListener("click", login);

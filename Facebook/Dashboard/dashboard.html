@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="/Dashboard/dashboard.css">
+  <link rel="stylesheet" href="dashboard.css">
   <title>Facebook - Dashboard</title>
 </head>
 
@@ -78,12 +78,99 @@
           Friends
         </div>
       </div>
-      <div></div>
-      <div></div>
+      <div class="center-layout">
+        <div class="posts-container">
+
+          <!-- Create post -->
+          <div class="create-post">
+            <div class="user-profile">
+              <i class="fa-regular fa-user"></i>
+            </div>
+
+            <button class="post-button">
+              What's on your mind, Kevin?
+            </button>
+
+            <div class="create-post-icons">
+              <div>
+                <i class="fa-solid fa-video"></i>
+              </div>
+              <div>
+                <i class="fa-regular fa-images"></i>
+              </div>
+              <div>
+                <i class="fa-regular fa-face-smile"></i>
+              </div>
+            </div>
+
+
+          </div>
+
+          <!-- Stories -->
+
+          <div class="story-container" id="story-container">
+
+
+          </div>
+
+
+          <div class="post-container" id="post-container">
+            <div class="post">
+              <div class="post-header">
+                <div class="profile-content">
+                  <div class="profile-pic">
+                    <img src="https://i.pravatar.cc/150?img=1" alt="">
+                  </div>
+                  <div class="post-user-detail">
+                    <p id="name">Emma Johnson</p>
+                    <p>29 Jan, 2026 9:06</p>
+                  </div>
+                </div>
+                <div class="post-icons">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+              </div>
+              <div class="post-caption">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit unde ad mollitia neque
+                  quod nemo quisquam, blanditiis nulla facilis dignissimos error ipsam atque amet
+                  nobis ullam illum dicta in. Culpa?</p>
+              </div>
+              <div class="post-image">
+                <img src="https://picsum.photos/400/700?random=1" alt="">
+              </div>
+              <div class="post-reactions">
+                <div>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-regular fa-face-grin-beam-sweat"></i>
+                  <p>32</p>
+                </div>
+                <div>
+                  <p>22 comments</p>
+                  <p>1 share</p>
+                </div>
+              </div>
+              <div class="post-footer">
+                <div>
+                  <i class="fa-regular fa-thumbs-up"></i> Like
+                </div>
+                <div>
+                  <i class="fa-regular fa-comment"></i> Comment
+                </div>
+                <div>
+                  <i class="fa-regular fa-share-from-square"></i> Share
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="chats">right</div>
     </div>
   </div>
-
-  <script src="../authentication/authenticate.js"></script>
   <script src="dashboard.js"></script>
   <script src="/Login/login.js"></script>
 </body>
